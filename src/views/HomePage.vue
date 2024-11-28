@@ -5,7 +5,7 @@
         <a href="/"
           ><img
             class="imagelogo"
-            :src="require('@/assets/logoferre-01.png')"
+            :src="require('@assets/llogo_ferreteria.jpg')"
             alt="Logo"
           />
         </a>

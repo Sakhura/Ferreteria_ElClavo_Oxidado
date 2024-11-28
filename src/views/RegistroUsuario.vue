@@ -45,7 +45,7 @@
     methods: {
       registroUsuario() {
      
-        this.$router.push({ name: 'ConfirmacionUsuario' })
+        this.$router.push({ name: 'ConfirmarUsuario' })
         console.log(this.user)
      
     },

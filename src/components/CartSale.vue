@@ -15,7 +15,7 @@
         <p>Total Price: ${{ cart.totalPrice }}</p>
         <button @click="clearCart">Clear Cart</button>
       </div>
-      <router-link to="/">Volver a productos</router-link>
+      <router-link to="/listadoproductos">Volver a productos</router-link>
     </div>
   </template>
  

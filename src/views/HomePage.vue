@@ -71,7 +71,7 @@
       <li><a :href="redSocial.instagram" target="_blank">Instagram</a></li>
     </ul>
  
-    <div>
+    <div class="datos_contacto">
       <h4>Contacto</h4>
       <ul>
         <li>Email: {{ informacion.correoElectronico }}</li>
@@ -221,6 +221,8 @@ tr:hover{
 }
 
 .promociones{
+  text-align: center;
+  margin: 20px 0;
   margin-bottom: 15px;
 }
 
@@ -272,6 +274,10 @@ footer {
   background-color: #2c3e50;
   color: #fff;
   padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
   text-align: center;
 }
 
@@ -284,6 +290,7 @@ footer h4 {
 footer ul {
   list-style: none;
   padding: 0;
+  margin: 10px 0;
 }
 
 footer ul li {
@@ -304,6 +311,26 @@ footer div ul {
   text-align: left;
   margin-top: 15px;
 }
+
+.datos_contacto{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  background-color: #6a93bd;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+.datos_contacto h4{
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+  color: #007bff;
+}
+
 
 @media (max-width: 768px) {
   .nav {

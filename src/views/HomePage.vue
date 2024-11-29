@@ -128,3 +128,139 @@
     },
   };
   </script>
+
+  <style>
+  .general{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: darkgreen;
+    padding: 15px;
+    border-radius: 8px;
+  }
+
+  .nav .imagelogo{
+    width: 100px;
+    height: auto;
+  }
+
+  .tittle{
+    text-align: center;
+    margin: 20px 0;
+    color: darkgreen;
+  }
+
+  .proveedor {
+  width: 100%;
+  max-width: 1200px;
+  margin: 20px auto; /* Centrar el contenedor */
+  padding: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Añadir sombra para un diseño moderno */
+  background-color: #fff; /* Fondo blanco para contraste */
+  border-radius: 8px; /* Bordes redondeados */
+}
+
+/* Tabla */
+.proveedor .table {
+  width: 100%;
+  border-collapse: collapse; /* Unificar bordes */
+  margin: 0 auto; /* Centrar la tabla dentro del contenedor */
+  background-color: #da8e8e;
+  font-size: 16px;
+  text-align: left; /* Alineación predeterminada para tablas */
+}
+
+/* Encabezados */
+.proveedor .table thead th {
+  background-color: #ddd; /* Fondo gris para encabezados */
+  color: #333; /* Texto oscuro */
+  font-weight: bold;
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center; /* Alineación centrada para encabezados */
+}
+
+/* Filas y celdas */
+.proveedor .table tbody td {
+  padding: 10px; /* Espaciado interno */
+  border: 1px solid #ccc; /* Bordes claros entre celdas */
+  text-align: center; /* Alineación de texto a la izquierda */
+}
+
+/* Alternar color de filas */
+.proveedor .table tbody tr:nth-child(even) {
+  background-color: #f2f2f2; /* Color de fondo para filas pares */
+}
+
+/* Alinear toda la tabla */
+.proveedor .table {
+  margin: 20px auto; /* Centrar tabla */
+}
+
+
+.promociones-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 15px;
+  max-width: 300px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.listado {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.footer {
+  margin-top: 40px;
+  width: 100%;
+  text-align: center;
+  background-color: #f8f9fa;
+  padding: 20px 0;
+  border-top: 2px solid #ccc;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer li {
+  margin: 5px 0;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+
+  </style>

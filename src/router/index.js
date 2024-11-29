@@ -6,6 +6,7 @@ import ConfirmarUsuario from "@/views/ConfirmarUsuario.vue";
 import HomePage from "@/views/HomePage.vue";
 import ListadoProductos from "@/views/ListadoProductos.vue";
 import DetalleProducto from "@/views/DetalleProducto.vue";
+import CartSale from "@/components/CartSale.vue";
  
 const routes = [
   {
@@ -43,6 +44,11 @@ const routes = [
     component: DetalleProducto,
     props: true,
   },
+  {
+    path: "/cart",
+    name: "CartSale",
+    component: CartSale
+  }
 ];
  
 const router = createRouter({
@@ -51,4 +57,3 @@ const router = createRouter({
 });
  
 export default router;
- 

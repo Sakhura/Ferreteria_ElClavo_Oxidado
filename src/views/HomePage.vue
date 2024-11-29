@@ -182,7 +182,143 @@ export default {
 .nav a{
   text-decoration: none;
 }
+.title {
+  text-align: center;
+  margin: 20px 0;
+}
 
+.title h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
 
+.proveedor{
+  margin: 20px auto;
+  width: 90%;
+  max-width: 1200px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
 
+table{
+  width: 100%;
+  border-collapse: collapse
+}
+thead{
+  background-color: #2ecc71;
+  color: rgb(250, 250, 250);
+}
+
+th, td{
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+tr:hover{
+  background-color: #f1f1f1;
+}
+
+.promociones{
+  margin-bottom: 15px;
+}
+
+.promociones-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  width: 300px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-title {
+  font-size: 1.2rem;
+  color: #2ecc71;
+  font-weight: bold;
+}
+
+.card-text {
+  margin: 10px 0;
+  color: #7f8c8d;
+}
+
+.listado{
+  margin: 20px auto;
+  width: 90%;
+  max-width: 1200px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.listado h5 {
+  font-size: 1.5rem;
+  color: #34495e;
+}
+footer {
+  background-color: #2c3e50;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer h4 {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  color: #ecf0f1;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer ul li {
+  margin: 5px 0;
+}
+
+footer ul li a {
+  color: #2ecc71;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer ul li a:hover {
+  text-decoration: underline;
+}
+
+footer div ul {
+  text-align: left;
+  margin-top: 15px;
+}
+
+@media (max-width: 768px) {
+  .nav {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .promociones-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 350px;
+  }
+}
 </style>

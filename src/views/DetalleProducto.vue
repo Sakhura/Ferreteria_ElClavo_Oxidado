@@ -81,25 +81,93 @@ export default {
 </script>
  
 <style>
-/* Estilos adicionales opcionales */
-.container {
-  margin: 20px;
-}
-.product-detail {
-  border: 1px solid #ccc;
+.container{
+  max-width: 1000px;
+  margin: 20px auto;
   padding: 20px;
-  border-radius: 5px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  display: grid;;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsivo */
+  gap: 20px;
+  align-items: start;
+}
+
+.container h2{
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #007bff;
+  margin-bottom: 20px;
 }
 .back-button {
+  display: inline-block;
   margin-bottom: 20px;
-  padding: 10px;
-  background-color: darkseagreen;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #28a745;
   border: none;
-  color: white;
-  cursor: pointer;
   border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
 }
 .back-button:hover {
-  background-color: #3a8b58;
+  background-color: #218838;
+  transform: translateY(-2px);
 }
+
+.product-detail{
+  display: grid;
+  padding: 10px 0;
+  font-size: 1rem;
+  color: #333;
+  line-height: 1.6;
+}
+
+.product-detail > div{
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.product-detail > div h2 {
+  font-size: 1.2rem;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.product-detail > div p {
+  margin: 5px 0;
+}
+
+.product-detail button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, transform 0.2s;
+}
+
+.product-detail button:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+}
+
+.container p {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #555;
+}
+
 </style>
